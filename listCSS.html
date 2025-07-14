@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+    <!-- internal CSS -->
+     <style>
+        /*Name selector */
+        h2{
+            color: #0044cc;
+            text-transform: uppercase;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+        }
+        #larry{
+            color: cadetblue;
+        }
+        .dearest{
+            background-color: burlywood;
+        }
+        /* Combinator Selector */
+        #elon, #jeff, h3{
+            color: rgb(47, 181, 181);
+            text-decoration: underline;
+        }
+        /*font size*/
+        #elon{
+            
+            font-weight: 600;
+            text-decoration: overline;
+        }
+        h4{
+            text-decoration: underline; 
+        }
+        #bio{
+            color: red;
+        }
+
+     </style>
+</head>
+<body>
+    <h2>I am Full Stack Developer</h2>
+    <h2>Tools</h2>
+    <h4>VS code <br>Mysql <br>Mongo compass <br>Agile</h4>
+    <h3>Project : <b>Student Management</b></h3>
+    <hr>
+    <br>
+    <p><i>Area of Square :</i>side<sup>2</sup></p>
+    <p><i>Molecule formula :</i>H<sub>2</sub>O</p>
+    <hr>
+    <br>
+    <br>
+    <h2><b>Top Billionaires in the World</b></h2>
+    <ol>
+        <li id="elon">Elon Musk</li>
+        <li id="jeff">Jeff Bozos</li>
+        <li>Warrent Buffett</li>
+        <li>Mark Zukrberg</li>
+        <li id="larry">Larry Page</li>
+        <li>Larry Ellision</li>
+        <li>Morteza</li>
+        <li>Stew Balmer</li>
+    </ol>
+    <hr>
+    <br>
+    <h2>My Friends List</h2>
+    <ul>
+        <li>Sakshi</li>
+        <li class="dearest">Sunita</li>
+        <li class="dearest">Dilip</li>
+        <li class="dearest">Digvijay</li>
+    </ul>
+    <hr>
+    <h4>My Favourite photo</h4>
+    <img src="Krishna.png" alt="Lord Krishna Photo" width="300px" height="300px">
+    <h4>My hobbies</h4>
+    <ul>
+        <li>Travelling</li>
+        <li>Reading</li>
+        <li>Watching <span id="bio">Biography</span> Videos</li>
+    </ul>
+</body>
+</html>
