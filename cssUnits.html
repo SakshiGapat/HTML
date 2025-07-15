@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Units</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Google Font Family -->
+     <!-- 
+      font-family: "Poppins", sans-serif; ---Table hearder
+      font-family: "Lobster Two", sans-serif; ---Main heading
+      font-family: "Roboto", sans-serif; --Table content
+      --> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Poppins&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        section{
+            font-size: 10px;
+        }
+        #buddy{
+            font-size: 2em;
+        }
+        #hero{
+            font-size: 2rem;
+        }
+        
+        
+        ul li{
+            list-style-type: circle;
+        }
+        table,thead,tbody,th,tr,td{
+            border: 1px solid rgb(230, 155, 14);
+            border-collapse: collapse;
+           /* padding-left: 10px;
+            padding-right: 10px;*/
+            padding: 10px ;
+        }
+        h2{
+           font-family: "Roboto", sans-serif; 
+        }
+        thead{
+            font-family: "Poppins", sans-serif;
+        }
+        tr td{
+            font-family: "Lobster Two", sans-serif;
+        }
+        li::before{
+            content: "✍️";
+        }
+    </style>
+</head>
+<body>
+  <section>
+    <p id="buddy">Hello Buddy</p>
+    <p id="hero">These are My Hero</p>
+  </section>
+  <hr>
+    <h2><b>Top Billionaires in the World</b></h2>
+    <ol>
+        <li>Elon Musk</li>
+        <li>Jeff Bozos</li>
+        <li>Warrent Buffett</li>
+        <li>Mark Zukrberg</li>
+        <li>Larry Page</li>
+        <li>Larry Ellision</li>
+        <li>Morteza</li>
+        <li>Stew Balmer</li>
+    </ol>
+    <hr>
+     <ul>
+        <li>Sakshi</li>
+        <li>Sunita</li>
+        <li>Dilip</li>
+        <li>Digvijay</li>
+        <li>Saniya</li>
+        <li>Anjali</li>
+        <li>Sita</li>
+    </ul>
+    <hr>
+    <h2>Student List</h2>
+
+    <table>
+        <thead>
+            <th>Name</th>
+            <th>Mobile</th>
+            <th>Email</th>
+            <th>City</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sakshi</td>
+                <td>9896545232</td>
+                <td>xyz@.com</td>
+                <td>Pune</td>
+            </tr>
+            <tr>
+                <td>Vaishnavi</td>
+                <td>1234567890</td>
+                <td>abc@.com</td>
+                <td>Mumbai</td>
+            </tr>
+            <tr>
+                <td>Siddhi</td>
+                <td>9876543210</td>
+                <td>pqr@.com</td>
+                <td>Benglore</td>
+            </tr>
+            <tr>
+                <td>Anisha</td>
+                <td>9870956410</td>
+                <td>uvw@.com</td>
+                <td>Indore</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
