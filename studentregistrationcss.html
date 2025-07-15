@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <style>
+        h2:hover{
+            color: aqua;
+            text-decoration: underline;
+            text-transform: uppercase; 
+            
+        }
+       
+        input[type="text"]{
+            text-transform: capitalize;
+            color: black;
+            border: 1px solid rgb(243, 192, 98);
+            width: 220px;
+            padding: 5px;
+            border-radius: 8px;
+             margin-top: 10px;
+             margin-bottom: 10px;
+        }
+        input[type="number"]{
+            text-transform: capitalize;
+            color: black;
+            border: 1px solid rgb(243, 192, 98);
+            width: 220px;
+            padding: 5px;
+            border-radius: 8px;
+             margin-top: 10px;
+             margin-bottom: 10px;
+        }
+        input[type="email"]{
+            
+            color: black;
+            border: 1px solid rgb(243, 192, 98);
+            width: 220px;
+            padding: 5px;
+            border-radius: 8px;
+             margin-top: 10px;
+             margin-bottom: 10px;
+        }
+        input[type="password"]{
+            color: black;
+            border: 1px solid rgb(243, 192, 98);
+            width: 220px;
+            padding: 5px;
+            border-radius: 8px;
+            margin-top: 10px;
+             margin-bottom: 10px;
+        }
+        input[type="date"]{
+            margin-top: 10px;
+             margin-bottom: 10px;
+        }
+        input[type="file"]{
+            margin-top: 10px;
+             margin-bottom: 10px;
+        }
+        input[type="radio"]{
+            margin-top: 10px;
+             margin-bottom: 10px;
+        }
+        input[type="checkbox"]{
+            margin-top: 10px;
+             margin-bottom: 10px;
+        }
+        #cities{
+            margin-top: 10px;
+             margin-bottom: 10px;
+        }
+        #add{
+            margin-top: 10px;
+             margin-bottom: 10px;
+        }   
+           
+    </style>
+</head>
+<body>
+      <h2>Student Registration</h2>
+    
+    <form action="">
+    <table>
+      
+        <tr>
+            <td><label for="">Full Name</label></td>
+            <td><input type="text" required autofocus></td>
+     
+    </tr>
+    <br>
+    <tr>
+        <td><label for="">Age</label></td>
+        <td><input type="number" required></td>
+    </tr>
+    <br>
+    <tr>
+        <td><label for="">College Name</label></td>
+        <td><input type="text" ></td>
+    </tr>
+    <tr>
+        <td><label for="">Mobile No</label></td>
+        <td><input type="number" required placeholder="only 10 digits"></td>
+    </tr>
+    <tr>
+        <td><label for="">Email</label></td>
+        <td><input type="email" name="" id="" required placeholder="abc@gmail.com"></td>
+    </tr>
+    <tr>
+        <td><label for="">Password</label></td>
+        <td><input type="password"></td>
+    </tr>
+    <tr>
+        <td><label for="">Available Date</label></td>
+        <td><input type="date" name="" id=""></td>
+    </tr>
+    <tr>
+        <td><label for="">Upload Adhar</label></td>
+        <td><input type="file" name="" id=""></td>
+    </tr>
+    <tr>
+        <td><label for="">Upload Marksheets</label></td>
+        <td><input type="file" name="" id="" multiple></td>
+    </tr>
+    <tr>
+     <td><label for="">Gender</label></td>
+     <td>
+        <input type="radio" name="gender" id="">
+        <label for="">Male</label>
+        <input type="radio" name="gender" id="">
+        <label for="">Female</label>
+        <input type="radio" name="gender" id="">
+        <label for="">Others</label>
+    </td>
+    </tr>
+    <tr>
+        <td><label for="">Select Course</label></td>
+        <td><input type="checkbox" name="" id="">
+        <label for="">Full Stack</label>
+        <input type="checkbox" name="" id="">
+        <label for="">MERN Stack</label>
+        <input type="checkbox" name="" id="">
+        <label for="">JAVA</label>
+        <input type="checkbox" name="" id="">
+        <label for="">Testing</label>
+        </td>
+    </tr>
+    <tr>
+        <td><label for="">Cities</label></td>
+        <td>
+            <select name="" id="">
+            <option value="">India</option>
+            <option value="">USA</option>
+            <option value="">Singapore</option>
+            <option value="">Japan</option>
+            <option value="">Sweeden</option>
+            <option value="">China</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td><label for="">Address</label></td>
+        <td>
+            <textarea name="" id=""></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td><button type="reset">Reset</button></td>
+        <td><button type="submit">Submit</button></td>
+    </tr>
+    </table>
+    </form>
+</body>
+</html> 
