@@ -23,7 +23,13 @@
         #hero{
             font-size: 2rem;
         }
-        
+        ol li{
+            list-style-type: none;
+            display: inline ;
+            width: 200px;
+            height: 50px;
+            border: 1px solid gray;
+        }
         
         ul li{
             list-style-type: circle;
@@ -47,9 +53,15 @@
         li::before{
             content: "✍️";
         }
+        #anjali{
+            display: none;
+        }
+        #saniya{
+            visibility: hidden;
+        }
     </style>
 </head>
-<body>
+<body> 
   <section>
     <p id="buddy">Hello Buddy</p>
     <p id="hero">These are My Hero</p>
@@ -72,8 +84,8 @@
         <li>Sunita</li>
         <li>Dilip</li>
         <li>Digvijay</li>
-        <li>Saniya</li>
-        <li>Anjali</li>
+        <li id="saniya">Saniya</li>
+        <li id="anjali">Anjali</li>
         <li>Sita</li>
     </ul>
     <hr>
