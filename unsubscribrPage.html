@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsubscribe Page</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+                
+        }
+        #page{
+            width: 400px;
+            height: 600px;
+            border: 1px solid gray;
+            margin: 10px auto;
+            border-radius: 8px;
+        }
+         h3{
+            padding: 10px 5px ;
+         }
+        #box{
+            width: 380px;
+            height: 200px;
+            border: 1px solid gray;
+            margin: 10px 10px 10px 10px;
+            background-color: dodgerblue;
+            font-weight: 400;
+           color: white;
+           border-radius: 5px;
+        }
+        p{
+            padding: 10px auto;
+        }
+        .required{
+            color: red;
+        }
+        label{
+            padding-left: 10px;
+            font-weight: bold;
+        }
+        input[type="email"],textarea{
+            width: 380px;
+            padding: 8px;
+            margin: 10px 10px;
+            border: 2px solid gray;
+            box-sizing: border-box;
+            border-radius: 5px;
+        }
+        button{
+            background-color: white;
+            color: black;
+            width: 85px;
+            height: 25px;
+            margin-left: 300px;
+            border-radius: 5px;
+        }
+        button:hover{
+            background-color: orange;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <section id="page">
+        <h3>Subscriber</h3>
+        <hr>
+        <section id="box">
+            
+           <p>We're sorry to see you go, but hey, no hard feelings, hopefully we will see you back one day.</p>
+           <p>Please fill in your email address in order to unsubscribe from the list.</p>
+            <p>You will receive an email to confirm your unsubscription, just to make sure this is not an accident or somebody else tries to unsubscribe you.</p>
+
+
+        </section>
+        <br>
+        <label for="">Email <span class="required">*</span></label>
+        <br>
+        <input type="email" name="" id="email" placeholder="Enter Your Email" required>
+        <br>
+        <br>
+        <label for="reason">Unsubscribe reason</label>
+        <br>
+        <textarea name="" id="reason" placeholder="Unsubscribe reason"></textarea>
+        <br><br><br><br><br>
+        <button type="submit">Unsubscribe</button>
+    </section>
+</body>
+</html>
